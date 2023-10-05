@@ -1,0 +1,35 @@
+:root{
+    --main-color: #fd4646;
+    --text-color :#171427;
+    --bg-color:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+body{
+color: var(--text-color);    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px #2926261a;
+    z-index: 99;
+    height: 65px;
+}
+.logo{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 65px;
+}
